@@ -1,0 +1,142 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Dancing+Script&family=Outfit&family=Tajawal:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+
+}
+p
+{
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+
+}
+
+.icon
+{
+    width: 100px;
+    height: 100px;
+}
+.top-container{
+    background-color: #A6D1E6;
+    height: 600px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.img-slier >img
+{
+    margin-top: 10px;
+    padding: 20px;
+    width: 150px;
+}
+
+/*Middle Container */
+
+.middle-container{
+    text-align: center;
+    padding-top: 20px;
+    height: 900px;
+    background-color: #FFF9CA;
+}
+
+
+.middle-container>h1
+{
+    color:#7F5283
+}
+
+.middle-container>img
+{
+    border-radius: 50%;
+
+}
+h2
+{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+h2,h3{
+    color:#B2A4FF;
+    margin-bottom: 20px;
+}
+
+h3
+{
+   margin: 35px;
+}
+hr
+{
+    width: 10%;
+    margin: 20px auto;
+    height: 0;
+    border: none;
+    border-top-width: 10px;
+    border-top-style: dotted;
+}
+.img-p
+{
+    height: 100px;
+    margin-bottom: 30px;
+    
+}
+.cont-img
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+/* Bottom Container */
+.bottom-container
+{
+    height: 200px;
+    text-align: center;
+    background-color:#E7F6F2;
+}
+
+ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+ul li 
+{
+    padding: 30px 16px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+
+}
+.bottom-container>p
+{
+    margin-bottom: 10px;
+}
+
+.button
+{
+    padding: 15px;
+    text-transform:uppercase;
+    color: black;
+    background-color: #FFB4B4;
+    border-radius: 7px;
+}
+a:hover
+{
+    color:#81CACF;
+}
