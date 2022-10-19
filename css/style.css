@@ -51,8 +51,42 @@ p {
     color: #7F5283
 }
 
-.middle-container>img {
+.middle-container div.image img {
     border-radius: 50%;
+    position:relative;
+    z-index:3;
+}
+
+.middle-container div.image
+{
+    display:inline-block;
+    height:288px;
+    width:288px;
+    margin:30px auto;
+    position:relative;
+    border-radius:50%;
+}
+.middle-container div.image::before{
+    content: "";
+    position: absolute;
+    width: 105%;
+    height: 105%;
+    background-image: conic-gradient(#FFABE1,#00ccff,#D58BDD,#00ccff);
+    animation: animate 4s linear infinite;
+    top: -7px;
+    left: -8px;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    z-index: 2;
+}
+@keyframes animate
+{
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
 }
 
 h2 {
