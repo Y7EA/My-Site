@@ -6,7 +6,7 @@ Table of Contents
 
 ### Installation
 
-To use the website, simply download the source code from the repository and open the index.html file in your web browser. Alternatively, you can visit the live website at https://yahya-portfolio.com.
+To use the website, simply download the source code from the repository and open the index.html file in your web browser. Alternatively, you can visit the live website at https://y7ea.github.io/My-Site/ .
 
 ### Usage
 
